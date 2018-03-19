@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>标签初始化</title>
+    <style>
+        body,h1,h2,h3,h4,h5,h6,p,dl,dd{
+            margin: 0;
+        }
+        ul,ol{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        img{
+            border: none;
+            vertical-align: top;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+    <!-- 
+        书写原则
+            用到什么标签就清除所用标签的默认样式
+            建议不要直接将所有标签全部加上
+            不要将所有标签设置为一致的reset,需根据标签默认样式设置
+     -->
+</head>
+<body>
+    <a href="">超链接</a>
+    <a href="">
+        <img src="" alt="">
+    </a>
+    <h1>标题</h1>
+    <h2>标题</h2>
+    <h3>标题</h3>
+    <h4>标题</h4>
+    <h5>标题</h5>
+    <h6>标题</h6>
+    <p>段落</p>
+    <strong>强调</strong>
+    <em>强调</em>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ol>
+    <dl>
+        <dt>段落</dt>
+        <dd>内容</dd>
+    </dl>
+</body>
+</html>
