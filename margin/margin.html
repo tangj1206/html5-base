@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>margin的问题</title>
+    <style>
+        #box {
+            background-color: red;
+            border: 1px solid red;
+        }
+        #div1{
+            height: 50px;
+            background-color: aquamarine;
+            margin: 100px;
+        }
+        #div2{
+            height: 50px;
+            background-color: blue;
+            margin: 100px;
+        }
+    </style>
+    <!-- margin的问题
+        1.margin-top：传递的问题
+            解决方法之一：父元素 border 1px
+        2.margin上下叠压问题
+            解决技巧：将其中一个设置为 叠加值
+    
+    -->
+</head>
+
+<body>
+
+    <div id="box">
+        <div id="div1">div1</div>
+        <div id="div2">div2</div>
+    </div>
+
+</body>
+
+</html>
